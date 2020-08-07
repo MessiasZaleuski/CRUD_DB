@@ -1,0 +1,38 @@
+
+   <!DOCTYPE html>
+   <html lang="PT-BR">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Formulário</title>
+       <link rel="stylesheet" type="text/css" href="css/estilo.css">
+   </head>
+   <body>
+    <fieldset class="fiel">
+        <legend class="titulo"><strong><h2>Faça aqui um orçamento de serviços</h2></strong></legend><br>
+        <form method="post" action="orcamento.php">
+
+        Data do orçamento:&nbsp <input type="date" name="data"><br><br>
+        Equipamento está com essas opções? &nbsp
+        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="Bateria"> Bateria
+        <INPUT TYPE="checkbox" NAME="OP" VALUE="Módulo Auxiliar"> Módulo Auxiliar
+            <br><br>
+        Serviço a ser realizado: &nbsp<select name="servico">
+            <option>Formatação</option>
+            <option>Troca de peças</option>
+            <option>Atualização</option>
+            <option>Outros</option>
+
+            
+        </select><br><br>
+        Descrição do aparelho: &nbsp<input type="textarea" name="aparelho"><br><br>
+        Nome do cliente:&nbsp<input type="text" name="cliente"><br><br>
+        <input type="submit" name="enviar" value="Visualizar Orçamento">
+
+    </form><br>
+
+    </fieldset>
+   </body>
+   </html>
+
+   

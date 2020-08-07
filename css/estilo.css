@@ -1,0 +1,28 @@
+
+
+.pagina{
+
+    border-style: solid;
+    text-align: center;
+	font-family: verdana;
+    text-shadow: 2px 2px 2px #51aa07;
+    width: 80%;
+    
+		}
+  .fiel{
+      width: 40%;
+      background-color: rgb(206, 221, 217);
+  }
+  
+  .titulo{
+    text-align: center;
+   
+  }
+  .topo{
+    border-style: solid;
+     width: 40%;
+	font-family: verdana;
+	text-shadow: 2px 2px 2px #51aa07;
+
+  }
+    
